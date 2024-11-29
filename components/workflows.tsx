@@ -20,9 +20,7 @@ export default function Workflows() {
               Your Personalized Guide to Health and Wellness
             </h2>
             <p className="text-lg text-green-200/65">
-              Simple and elegant interface to start collaborating with your team
-              in minutes. It seamlessly integrates with your code and your
-              favorite programming languages.
+              SehaTrack empowers you to make informed health choices with a simple, easy-to-use interface. Scan products, receive personalized health insights, and make safer decisions.
             </p>
           </div>
           {/* Spotlight items */}
@@ -63,13 +61,12 @@ export default function Workflows() {
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,theme(colors.gray.700/.15),theme(colors.gray.700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                       <span className="bg-gradient-to-r from-green-500 to-green-200 bg-clip-text text-transparent">
-                        Built-in Tools
+                        Scan & Learn
                       </span>
                     </span>
                   </div>
                   <p className="text-green-200/65">
-                    Streamline the product development flow with a content
-                    platform that's aligned across specs and insights.
+                    Scan product barcodes instantly and receive detailed insights about ingredients, allergens, and health risks.
                   </p>
                 </div>
               </div>
@@ -110,13 +107,12 @@ export default function Workflows() {
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,theme(colors.gray.700/.15),theme(colors.gray.700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                       <span className="bg-gradient-to-r from-green-500 to-green-200 bg-clip-text text-transparent">
-                        Scale Instantly
+                        Ethical Choices
                       </span>
                     </span>
                   </div>
                   <p className="text-green-200/65">
-                    Streamline the product development flow with a content
-                    platform that's aligned across specs and insights.
+                    Receive alerts about harmful ingredients, allergens, and ethical concerns like sustainability and boycotts.
                   </p>
                 </div>
               </div>
@@ -157,13 +153,12 @@ export default function Workflows() {
                   <div className="mb-3">
                     <span className="btn-sm relative rounded-full bg-gray-800/40 px-2.5 py-0.5 text-xs font-normal before:pointer-events-none before:absolute before:inset-0 before:rounded-[inherit] before:border before:border-transparent before:[background:linear-gradient(to_bottom,theme(colors.gray.700/.15),theme(colors.gray.700/.5))_border-box] before:[mask-composite:exclude_!important] before:[mask:linear-gradient(white_0_0)_padding-box,_linear-gradient(white_0_0)] hover:bg-gray-800/60">
                       <span className="bg-gradient-to-r from-green-500 to-green-200 bg-clip-text text-transparent">
-                        Tailored Flows
+                        Personalized Insights
                       </span>
                     </span>
                   </div>
                   <p className="text-green-200/65">
-                    Streamline the product development flow with a content
-                    platform that's aligned across specs and insights.
+                    Tailored health advice based on your lifestyle, preferences, and goals.
                   </p>
                 </div>
               </div>
