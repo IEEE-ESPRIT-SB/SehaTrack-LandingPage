@@ -5,33 +5,33 @@ import Image from "next/image";
 export default function Benefits() {
     const benefits = [
         {
-            title: "Personalized Insights",
-            description: "Tailored recommendations for unique needs.",
+            title: "Personalized Health Insights",
+            description: "Get tailored recommendations based on your health, allergies, and diet.",
             icon: "/icons/personalized.svg", // Replace with actual SVG paths
         },
         {
-            title: "Enhanced Security",
-            description: "Your data is safe and encrypted.",
+            title: "Health and Ethical Alerts",
+            description: "Instantly spot harmful ingredients, allergens, or unethical practices.",
             icon: "/icons/security.svg",
         },
         {
-            title: "Community Support",
-            description: "Engage with a supportive community.",
+            title: "Localized for Tunisia",
+            description: "Designed specifically for local products, ingredients, and dietary habits.",
             icon: "/icons/community.svg",
         },
         {
-            title: "Rewards System",
-            description: "Earn points for healthy choices.",
+            title: "Product Comparisons",
+            description: "Compare products to choose safer and healthier alternatives.",
             icon: "/icons/rewards.svg",
         },
         {
-            title: "Local Relevance",
-            description: "Focused on regional products and habits.",
+            title: "Barcode Scanning Made Easy",
+            description: "Scan any product barcode for immediate insights on ingredients and safety.",
             icon: "/icons/local.svg",
         },
         {
             title: "Expert Guidance",
-            description: "Backed by industry professionals.",
+            description: "Backed by professionals to ensure reliable, health-conscious choices.",
             icon: "/icons/expert.svg",
         },
     ];
@@ -67,15 +67,15 @@ export default function Benefits() {
                     {/* Section Header */}
                     <div className="mx-auto max-w-3xl pb-4 text-center md:pb-12">
                         <div className="inline-flex items-center gap-3 pb-3">
-              <span className="inline-flex bg-gradient-to-r from-green-500 to-green-200 bg-clip-text text-transparent">
-                Benefits
-              </span>
+                            <span className="inline-flex bg-gradient-to-r from-green-500 to-green-200 bg-clip-text text-transparent">
+                                Benefits
+                            </span>
                         </div>
                         <h2 className="bg-gradient-to-r from-gray-200 to-green-300 bg-clip-text pb-4 font-nacelle text-3xl font-semibold text-transparent md:text-4xl">
-                            Why Choose Our Solution?
+                            Why Choose SehaTrack?
                         </h2>
                         <p className="text-lg text-green-200/65">
-                            Explore key benefits designed to meet your needs efficiently.
+                            Explore key benefits designed to help you make informed and healthier choices.
                         </p>
                     </div>
                     {/* Cards */}
