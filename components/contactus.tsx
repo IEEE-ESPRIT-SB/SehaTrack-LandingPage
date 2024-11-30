@@ -28,7 +28,7 @@ export default function ContactUsPage() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          to: 'recipient@example.com', // Remplacez par le destinataire réel
+          to: 'arij.mahjoub@ieee.org', // Remplacez par le destinataire réel
           subject: `New Contact Form Submission from ${formData.firstName} ${formData.lastName}`,
           text: `Name: ${formData.firstName} ${formData.lastName}\nEmail: ${formData.email}\nPhone: ${formData.phone}\nMessage: ${formData.message}`,
           html: `
@@ -54,7 +54,7 @@ export default function ContactUsPage() {
   };
 
   return (
-    <section>
+    <section id="contact-us">
       <div className="mx-auto max-w-6xl px-4 sm:px-6">
         {/* Hero content */}
         <div className="py-12 md:py-20">
@@ -79,7 +79,7 @@ export default function ContactUsPage() {
 
           <div className="flex flex-col lg:flex-row items-center lg:items-start space-y-8 lg:space-y-0 lg:space-x-8">
             {/* Form Section */}
-            <div className="lg:w-1/2 flex flex-col items-center text-center lg:text-left lg:items-start">
+            <div className="lg:w-1/2 w-full flex flex-col items-center text-center lg:text-left lg:items-start">
               <form onSubmit={handleSubmit} className="mt-8 space-y-4 w-full max-w-md bg-gray-900 bg-opacity-80 p-6 rounded-lg backdrop-blur-xl">
                 <div className="flex flex-col gap-4 lg:grid lg:grid-cols-2 lg:gap-x-4">
                   <div className="flex flex-col">
@@ -156,7 +156,7 @@ export default function ContactUsPage() {
 
             {/* Image Section */}
             <div
-              className="lg:w-1/2 flex justify-center lg:justify-start mb-8 lg:mb-0 overflow-hidden rounded-lg shadow-xl"
+              className="lg:w-1/2  lg:flex hidden justify-center lg:justify-start mb-8 lg:mb-0 overflow-hidden rounded-lg shadow-xl"
               style={{
                 backgroundImage: `url(${contactImage.src})`,
                 backgroundSize: 'cover',
